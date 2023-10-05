@@ -9,6 +9,7 @@ test('File Upload test',async t => {
     await t.setFilesToUpload(fileUpload,'../upload/imagen.png')
     .clearUpload(fileUpload)
     .setFilesToUpload(fileUpload,'../upload/imagen.png')
+    .debug()
     .click(uploadFileButton)
 
 })

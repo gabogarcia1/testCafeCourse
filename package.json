@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "testcafe": "^3.2.0"
+    "global": "^4.4.0",
+    "testcafe": "^3.3.0"
   },
   "name": "testcafe",
   "version": "1.0.0",
